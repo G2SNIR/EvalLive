@@ -1,0 +1,180 @@
+:root {
+    --brun: #fff1e1;
+    --bleufonce : #034f84;
+    --noir: #1d3c45;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Montserrat;
+}
+
+header {
+    height: 15vh;
+}
+header #menu{
+    float: left;
+}
+header h1{
+    text-align: center;
+}
+
+nav {
+    display:block;
+    position: absolute;
+    top:0;
+    height: 100vh;
+    width: 20vh;
+    left: -20vh;
+    background-color: rgba(255, 241, 224, 0.9);
+    z-index: 10;
+    transition: left 1s;
+
+}
+
+#conversation{
+    
+}
+
+
+
+
+/*  Les styles des éléments de formulaire  */
+
+label {
+    display: block;
+    color: var(--noir);
+    font-size: 20px;
+    font-weight: 300;
+}
+input[type=text],input[type=password] {
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    width: calc(100% - 40px);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px;
+
+}
+
+input[type=radio] {
+    /* padding : 20px; */
+    margin-left: 20px;
+}
+
+
+input[type=button] {
+    background-color: var(--bleufonce);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+    color: var(--brun);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+textarea{
+    font-family: Montserrat;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    resize: none;
+    padding: 10px;
+}
+
+#formulaire textarea{
+    display: block;
+    width: -webkit-calc(100% - 4px);
+    width:    -moz-calc(100% - 4px);
+    width:         calc(100% - 4px);
+}
+
+input:focus-visible{
+    outline: var(--bleufonce) auto 1px;
+}
+
+textarea:focus-visible{
+    outline: var(--bleufonce) auto 1px;
+}
+
+.rouge {
+    color:crimson;
+}
+
+
+/** Style du formulaire permettant d'ajouter une question **/
+
+#formulaire {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: auto;
+    padding: 2vh 0;
+    background-color: #f2f2f2;;
+    border-top: 2px solid var(--bleufonce);
+}
+#formulaire form {
+    display: grid;
+    padding : 0 5vw;
+    grid-template-columns:15% 1fr 15%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "question question question"
+                         "type reponse envoyer";
+    row-gap: 20px; 
+}
+
+#formulaire input[type=button] {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    margin: 10px;
+}
+
+
+#div_question {
+    grid-area: question;
+}
+#div_type {
+    grid-area: type;
+}
+#div_reponse {
+    grid-area: reponse;
+}
+#div_envoyer {
+    grid-area: envoyer;
+}
+
+
+/* formulaire de connexion  */
+form#form_connexion {
+    background-color: #f2f2f2;
+    padding: 30px 20px;
+}
+form#form_connexion label{
+    margin-top: 20px;
+}
+
+
+
+
+
+

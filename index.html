@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <header>
+            <p id="menu">Menu</p>
+            <h1>TP & Eval Live</h1>
+        </header>
+        <nav id="nav">
+            <div>
+                <p>En cours</p>
+            </div>
+            <div>
+                Resultats
+            </div>
+            <div id="div_connexion">
+                Connexion
+            </div>
+        </nav>
+        <section id="conversation">
+            
+        </section>
+        <section id="formulaire">
+            <form>
+                <div id="div_question">
+                    <label>La question : 
+                        <textarea id="input_question" rows="4" cols="80"></textarea>
+                    </label>
+                </div id="div_type">
+                <div>
+                    <label>Le type de question :</label><br />
+                    <label>
+                        <input type="checkbox" checked="checked">
+                        Libre
+                    </label><br />
+                    <label>
+                        <input type="checkbox" checked="checked">
+                        QCM
+                    </label>
+                </div>
+                <div id="div_reponse">
+                    <label>La reponse :
+                        <textarea id="input_reponse" rows="4" cols="80"></textarea>
+                    </label>
+                </div>
+                <div id="div_envoyer">
+                    <input type="button" id="input_button_valider" value="Valider">
+                </div>
+            </form>
+        </section>
+        <script src="CryptoJS v3.1.2/rollups/sha512.js"></script>
+        <script src="websocket.js"></script>
+       <script src="formulaire.js"></script> 
+       <script src="navigation.js"></script>
+    </body>
+</html>

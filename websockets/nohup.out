@@ -1,0 +1,149 @@
+Gestion des signauxMonPID : 3457
+PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+SIGNAL : 15
+Fermeture de la socket d'écoute
+HANDLE SIGNAL 15
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1685PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1705PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1771PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1778PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1785PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1789PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1793PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1798PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1802PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 1811PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 2731PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3353PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3366PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3386PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3394PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3416PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3489PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3496PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3500PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
+Lancement de l'eval live STOP 1
+kill -15 3533PHP Warning:  socket_select(): Unable to select [4]: Interrupted system call in /home/gaetan/public_html/EvalLive/websockets/websock_evallive.php on line 116
+Request processed
+Ready to receive...
+Lancement de l'eval live START 1
+Request processed
+Ready to receive...
