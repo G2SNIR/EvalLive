@@ -152,11 +152,17 @@
                 {
                     if($element["type"] == "QCM")
                     {
+                        // On récupère toutes les propositions possibles à la question
                         $stmt2 = $pdo->prepare("SELECT proposition FROM choix WHERE idquestion=?");
                         $stmt2->bindParam(1,$element["idquestion"]);
                         $stmt2->execute();
                         $tab2 = $stmt2->fetchAll(PDO::FETCH_ASSOC);
                         $tab[$key]["choix"] = $tab2;
+                        $stmt3 = $pdo->prepare("SELECT COUNT(idchoix) AS nbbonnesreponses FROM choix WHERE idquestion=? AND correct='1'");
+                        $stmt3->bindParam(1,$element["idquestion"]);
+                        $stmt3->execute();
+                        $tab3 = $stmt3->fetchAll(PDO::FETCH_ASSOC);
+                        $tab[$key]["nbbonnesreponses"] = $tab3[0]["nbbonnesreponses"];
                     }
                 }
                 echo json_encode($tab);

@@ -14,15 +14,15 @@ websocket.onerror = function (event) {
 websocket.onmessage = function(event) {
     var data = JSON.parse(event.data);
     console.log(data);
-    if(data.type == "question")
+    if(data.type == "maj")
     {
-        document.getElementById("conversation").innerHTML += "<p>"+data.message+"</p>";
+        document.getElementById("websocket").innerHTML += "<p>"+data.message+"</p>";
     }
 };
 
 document.getElementById("input_button_valider").addEventListener("click", Envoyer);
 function Envoyer()
 {
-    let input_text_message = document.getElementById("input_text_message").value;
-    websocket.send('{"type":"question", "message":"'+input_text_message+'"}');
+    let input_text_message = "NQ";
+    websocket.send('{"type":"maj", "message":"'+input_text_message+'"}');
 }

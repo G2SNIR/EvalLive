@@ -279,14 +279,23 @@ function afficherEval(ideval)
     })
     .then(function(jsondata) {
         console.debug(jsondata);
-        // On crée les formulaires pour chaque question
 
+
+        // IDEE : On prépare toutes les div des questions (max 20)
+        // On regarde si le innerHTML de la div est remplie ou pas.
+        // Si pas remplie, on met le code qu'on a reçu.
+        // Si déjà remplie, on n'y touche pas. A tester !
+
+
+        // On vérifie si la question est déjà écrite
         let html = '<button id="'+ideval+'" onclick="arreterEval('+ideval+');">Stop</button>';
         html += '<div id="E'+ideval+'" class="eval" name="'+ideval+'">';
         for(let i=0 ; i<jsondata.length ; i++)
         {
             html += '<form id="Q'+jsondata[i].idquestion+'" class="question" name="'+jsondata[i].idquestion+'">';
-            html += '<p>Q'+(i+1)+') '+jsondata[i].question+' /'+jsondata[i].note+'</p>';
+            html += '<p>Q'+(i+1)+') '+jsondata[i].question;
+            if(jsondata[i].type == "QCM") html += '('+jsondata[i].nbbonnesreponses+' bonne(s) réponse(s))';
+            html +=' /'+jsondata[i].note+'</p>';
             if(jsondata[i].type == "LIBRE")
             {
                 html += '<label><input id="R'+(i+1)+'" type="text" /></label>';
@@ -300,7 +309,7 @@ function afficherEval(ideval)
             }
             html += '</form>';
         }
-        html += '</div>';
+        html += '</div><div id="websocket"></div>';
         document.getElementById("conversation").innerHTML = html;
     })
 }
